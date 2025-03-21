@@ -1,6 +1,7 @@
 .site-header {
   position: relative;
   background-image: url(images/header-bg.jpg);
+  background-size: cover;
 }
 
 .site-header .mdl-layout__header-row {
@@ -100,51 +101,6 @@ img.article-image {
 
 .site-max-width {
   max-width: 900px;
-  margin: auto;
-}
-
-.site-copy {
-  max-width: 700px;
-}
-
-.no-padding {
-  padding: 0;
-}
-
-.no-left-padding{
-  padding-left: 0;
-}
-
-.no-bottom-padding {
-  padding-bottom: 0;
-}
-
-.padding-top {
-  padding: 10px 0 0;
-}
-
-.site-share-btn {
-  position: relative;
-  float: right;
-  top: -4px;
-}
-
-.demo-card-event > .mdl-card__actions {
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    box-sizing: border-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.site-contact .mdl-textfield {
-  width: 100%;
-}
-
-.site-contact form {
-  max-width: 550px;
   margin: auto;
 }
 
