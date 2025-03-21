@@ -1,21 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Illia Sorokoumov's Personal Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Illia Sorokomov's Personal Website</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <p>
-      Greetings! The site is being under construction. 
-      For now, please, feel free to check out my <a href="https://github.com/ilya40umov">Github</a> 
-       and <a href="https://www.linkedin.com/in/ilya40umov/">LinkedIn</a> profiles.
-    </p>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall site-header">
+            <div class="mdl-layout__header-row site-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="site-logo"></div>
+                    <span class="mdl-layout__title">Illia Sorokoumov's Personal Website</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row site-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Home</a>
+                    <a class="mdl-navigation__link" href="https://www.linkedin.com/in/ilya40umov/">LinkedIn</a>
+                    <a class="mdl-navigation__link" href="https://github.com/ilya40umov">GitHub</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="https://www.linkedin.com/in/ilya40umov/">LinkedIn</a>
+                <a class="mdl-navigation__link" href="https://github.com/ilya40umov">GitHub</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid site-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp site-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/tags.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Occupation</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        I'm a software engineer with more than 10 years of professional experience. 
+                        <br/>
+                        In my career I've designed, implemented and maintained solutions in Java, Scala, Kotlin and Python.
+                        If you would like to learn more, feel free to check out my LinkedIn profile.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://www.linkedin.com/in/ilya40umov/">To LinkedIn profile</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp site-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/github-mark.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">On GitHub</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      I love sharing things on GitHub.
+                      <br/>For example, if you need a cheatsheet for working with Linux Mint or Ubuntu via Terminal, <a href="https://github.com/ilya40umov/linux-mint-via-terminal">I already have you covered</a>.
+                      <br/>On top of that, I always try being a good citizen and report bugs back to the open-source projects that I'm using.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/ilya40umov">To Github Profile</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp site-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/kotlink-logo.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">KotLink.org</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      KotLink is probably the most successful of my pet projects. It was created to solve the problem of sharing memorable URL aliases with the colleagues.
+                      <br/>It's fully open-source, being used daily by dozens of developers, and its backend is written in Kotlin.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="http://kotlink.org/">kotlink.org</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp site-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/team-red.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Wizard by heart</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      Outside of work, I'm interested in great many things, but as you can guess, being a geek mainly pertains that I genuingly enjoy Fantasy &amp; Sci-Fi (be it in computer games, TV series, movies or books).
+                      <br/>If we've met, feel free to reach out to me in FB.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://facebook.com/illia.sorokoumov">Me on Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                  <div class="mdl-logo">“If you walk down the path that you believe is right, you cannot be wrong.” – Shirou Emiya</div>
+                </div>
+                <ul>
+                </ul> 
+                <div class="mdl-mini-footer__right-section">
+                  <ul class="mdl-mini-footer__link-list">
+                    <li class="mdl-mini-footer--social-btn">
+                      <a href="https://www.linkedin.com/in/ilya40umov/" class="social-btn social-btn__linkedin" role="button" title="GitHub"></a>
+                    </li>
+                    <li class="mdl-mini-footer--social-btn">
+                      <a href="https://github.com/ilya40umov" class="social-btn social-btn__github" role="button" title="GitHub"></a>
+                    </li>
+                  </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
 </html>

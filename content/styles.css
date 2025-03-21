@@ -1,0 +1,183 @@
+.site-header {
+  position: relative;
+  background-image: url(images/header-bg.jpg);
+}
+
+.site-header .mdl-layout__header-row {
+  padding: 0;
+    -webkit-justify-content: center;
+        -ms-flex-pack:       center;
+            justify-content: center;
+}
+
+.mdl-layout__title {
+  text-align: center;
+  color: #ffe4c4;
+}
+
+.is-compact .mdl-layout__title span {
+  display: none;
+}
+
+.site-logo-row {
+  min-height: 200px;
+}
+
+.is-compact .site-logo-row {
+  min-height: auto;
+}
+
+.site-logo {
+  background: url(images/logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin: auto auto 10px;
+}
+
+.is-compact .site-logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+
+.site-navigation-row {
+  background-color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.site-navigation-row .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.site-navigation-row .mdl-navigation__link {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 42px;
+}
+
+.site-header .mdl-layout__drawer-button {
+  background-color: rgba(197, 197, 197, 0.44);
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: #eae1d8;
+}
+
+.site-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+
+.site-navigation-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255,64,129);
+  left: 15%;
+}
+
+.site-card .mdl-card__title {
+  padding-bottom: 0;
+}
+
+.mdl-card__media {
+  background-color: white;
+}
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.site-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.site-copy {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-left-padding{
+  padding-left: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top {
+  padding: 10px 0 0;
+}
+
+.site-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}
+
+.demo-card-event > .mdl-card__actions {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.site-contact .mdl-textfield {
+  width: 100%;
+}
+
+.site-contact form {
+  max-width: 550px;
+  margin: auto;
+}
+
+.mdl-mini-footer--social-btn {
+  background-color: transparent;
+}
+
+.mdl-mini-footer__right-section .social-btn {
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.social-btn__linkedin {
+  background-image: url(images/icons8-linkedin.svg);
+  width: 24px;
+}
+
+.social-btn__github {
+  background-image: url(images/github-mark-32px.png);
+  width: 20px !important;
+}
+
+.mdl-logo {
+  color: #214f7a;
+  font-style: italic;
+}
+
+footer {
+  background-image: url(images/header-bg.jpg);
+  background-size: cover;
+}
